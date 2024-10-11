@@ -1,8 +1,29 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-image: url("../imagens/background1.jpg");
-    /*background-size: cover;*/
+    background-image: url("../imagens/background7.jpg");
+    background-size: cover;
 }
-.cartao-pokedev {
+main {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+.cartao-pokemon {
     display: none;
+
 }
+.cartao-pokemon.aberto {
+    display: block;
+    background-color: green;
+    max-width: 360px;
+}
+.cartao-pokemon img {
+    
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+  
